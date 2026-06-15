@@ -79,7 +79,7 @@ def login_screen() -> None:
                   <li><code>coach_david</code> - Swimming</li>
                   <li><code>coach_tara</code> - Basketball</li>
                 </ul>
-                <b style="color:{theme.PRIMARY}">Athletes</b> (password = <code>id123</code>, e.g. <code>alex123</code>):
+                <b style="color:{theme.PRIMARY}">Athletes</b> (password = <code>id123</code>, e.g. <code>alex</code>):
                 <ul>
                   <li>Track &amp; Field: <code>alex</code>, <code>jordan</code>, <code>maya</code>, <code>sam</code></li>
                   <li>Swimming: <code>lena</code>, <code>tom</code>, <code>nina</code></li>
