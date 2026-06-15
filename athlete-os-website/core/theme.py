@@ -53,7 +53,7 @@ def inject_css() -> None:
 
         /* Headings bright + tight */
         h1, h2, h3, h4 {{ color: {TEXT}; letter-spacing: -0.01em; }}
-        p, span, label, li, div {{ color: {TEXT}; }}
+        p, span, label, li, {{ color: {TEXT}; }}
 
         /* Sidebar */
         section[data-testid="stSidebar"] {{
@@ -70,7 +70,7 @@ def inject_css() -> None:
             box-shadow: 0 6px 20px rgba(0,0,0,0.35);
         }}
         div[data-testid="stMetricValue"] {{ color: {TEXT}; font-weight: 800; }}
-        div[data-testid="stMetricLabel"] {{ color: {TEXT_MUTED}; font-weight: 600; }}
+        div[data-testid="stMetricLabel"] {{ color: {TEXT}; font-weight: 700; }}
 
         /* Buttons */
         .stButton > button {{
